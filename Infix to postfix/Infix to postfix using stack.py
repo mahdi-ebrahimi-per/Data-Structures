@@ -97,8 +97,8 @@ class Infix_to_postfix:
 
 		print("".join(self.output))
 
-# Driver program to test above function
+
 exp = "A/(B-C)*D+E"
-obj = Infix_to_postfix(len(exp))
-obj.infixToPostfix(exp)
+obj = Infix_to_postfix(len(exp))   # instances / ایجاد نمونه
+obj.infixToPostfix(exp)            # call fucntion / فراخوانی فانکشن
 # must be : ABC-/D*E+
