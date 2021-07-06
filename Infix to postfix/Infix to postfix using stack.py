@@ -101,4 +101,4 @@ class Infix_to_postfix:
 exp = "A/(B-C)*D+E"
 obj = Infix_to_postfix(len(exp))
 obj.infixToPostfix(exp)
-
+# must be : ABC-/D*E+
