@@ -1,5 +1,5 @@
 # in priority queue, we insert number and delete maximum number in the queue
-# در صف اولويتي، ما عدد اضافه ميکنيم، ووقت جذف، بزرگ ترين عدد يا آيتم رو از صف حذف ميکنيم
+# در صف اولويتي، ما عدد اضافه ميکنيم، ووقت حذف، بزرگ ترين عدد يا آيتم رو از صف حذف ميکنيم
 
 class PriorityQueue(object):
 	def __init__(self):
