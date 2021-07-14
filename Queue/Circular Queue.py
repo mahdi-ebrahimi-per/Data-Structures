@@ -13,7 +13,7 @@ class CircularQueue:
         if self.size() == (self.MaxSize -1):
             return ('queue is full')
 
-        #
+        
         else:
             print('tail : ' ,self.tail)
             self.q[self.tail] = NewValue
