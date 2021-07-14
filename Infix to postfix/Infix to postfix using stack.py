@@ -1,4 +1,6 @@
 # Python program to convert infix expression to postfix
+# Infix :  A + B     
+# Postfix : AB+
 
 # Class to convert the expression
 class Infix_to_postfix:
